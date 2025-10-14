@@ -125,11 +125,57 @@
 
 	<build>
 		<plugins>
+			<!-- Ensure compilation works on JDK 17 by targeting Java 8 and opening required modules for annotation processing -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+					<fork>true</fork>
+					<compilerArgs>
+						<!-- Open JDK 17 modules to allow annotation processors (e.g., Lombok) to interact with javac internals -->
+						<arg>--add-opens</arg>
+						<arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+						<arg>--add-opens</arg>
+						<arg>jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED</arg>
+						<arg>--add-opens</arg>
+						<arg>jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>
+					</compilerArgs>
+					<annotationProcessorPaths>
+						<path>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+							<version>1.18.30</version>
+						</path>
+					</annotationProcessorPaths>
+				</configuration>
+			</plugin>
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<!-- Ensure JDK 17 module opens are applied during test execution as well -->
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.2</version>
+					<configuration>
+						<argLine>
+							--add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED
+							--add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED
+							--add-opens jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED
+						</argLine>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 
 
