@@ -1,11 +1,8 @@
 package pl.coderslab;
 
-import static org.junit.Assert.fail;
-
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.mockito.Mock;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import pl.coderslab.entity.Contract;
@@ -27,7 +24,7 @@ public class ContractServiceTest {
 	
 	
 
-	@Before
+	@BeforeEach
 	public void setUp() throws Exception {
 		userService = Mockito.mock(UserService.class);
 		authenticationFacade = Mockito.mock(AuthenticationFacade.class);
@@ -48,7 +45,7 @@ public class ContractServiceTest {
 		//when
 		contractService.sendToSupervisor(contract, user);
 		//then
-		Assert.assertEquals(contract.getAcceptedBy(), supervisor);
+		Assertions.assertEquals(supervisor, contract.getAcceptedBy());
 	}
 	
 	@Test
@@ -66,7 +63,7 @@ public class ContractServiceTest {
 		//when
 		contractService.sendToSupervisor(contract, user);
 		//then
-		Assert.assertEquals(contract.getAcceptedBy(), nextSupervisor);
+		Assertions.assertEquals(nextSupervisor, contract.getAcceptedBy());
 	}
 
 	@Test
@@ -80,7 +77,7 @@ public class ContractServiceTest {
 		//when
 		contractService.acceptContract(contract);
 		//then
-		Assert.assertTrue(contract.isAccepted());
+		Assertions.assertTrue(contract.isAccepted());
 	}
 	
 	@Test
@@ -96,7 +93,7 @@ public class ContractServiceTest {
 		//when
 		contractService.acceptContract(contract);
 		//then
-		Assert.assertFalse(contract.isAccepted());
+		Assertions.assertFalse(contract.isAccepted());
 	}
 
 }

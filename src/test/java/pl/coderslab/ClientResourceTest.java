@@ -4,13 +4,11 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import org.hamcrest.Matchers;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.context.embedded.LocalServerPort;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
@@ -20,13 +18,12 @@ import io.restassured.specification.RequestSpecification;
 
 @TestPropertySource("/test.properties")
 @SpringBootTest(classes = { CrmApplication.class }, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@RunWith(SpringRunner.class)
 public class ClientResourceTest {
 
 	@LocalServerPort
 	private int port;
 
-	@Before
+	@BeforeEach
 	public void setUp() {
 		RestAssured.port = port;
 	}
