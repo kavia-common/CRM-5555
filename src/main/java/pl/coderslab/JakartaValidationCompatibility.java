@@ -2,9 +2,18 @@ package pl.coderslab;
 
 /**
  * PUBLIC_INTERFACE
- * Placeholder class documenting that validation annotations/classes now use jakarta.* packages under Spring Boot 3.
- * If compilation errors arise from javax.validation imports, update them to jakarta.validation.* in source files.
+ * Minimal placeholder documenting Jakarta Validation usage under Spring Boot 3.
+ *
+ * This class intentionally has no runtime behavior. It exists to:
+ * - Serve as a reference that javax.validation.* has migrated to jakarta.validation.*
+ * - Help track upgrade work during the Boot 3 migration.
  */
 public final class JakartaValidationCompatibility {
-    private JakartaValidationCompatibility() {}
+
+    /**
+     * Private constructor to prevent instantiation.
+     */
+    private JakartaValidationCompatibility() {
+        // no-op
+    }
 }
