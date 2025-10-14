@@ -11,12 +11,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.itextpdf.kernel.pdf.PdfDocument;
-import com.itextpdf.kernel.pdf.PdfWriter;
-import com.itextpdf.layout.Document;
-import com.itextpdf.layout.element.Cell;
-import com.itextpdf.layout.element.Paragraph;
-import com.itextpdf.layout.element.Table;
+import com.lowagie.text.Document;
+import com.lowagie.text.Paragraph;
+import com.lowagie.text.pdf.PdfPTable;
+import com.lowagie.text.pdf.PdfPCell;
+import com.lowagie.text.pdf.PdfWriter;
 
 import pl.coderslab.entity.Client;
 import pl.coderslab.entity.Company;
@@ -81,24 +80,19 @@ public class PdfService {
 		File file = new File(filename + TYPE);
 		file.getParentFile().mkdirs();
 
-		// Initialize PDF writer
-		PdfWriter writer = new PdfWriter(filename + TYPE);
-
-		// Initialize PDF document
-		PdfDocument pdf = new PdfDocument(writer);
-
-		// Initialize document
-		Document document = new Document(pdf);
+		Document document = new Document();
+		PdfWriter.getInstance(document, new java.io.FileOutputStream(filename + TYPE));
+		document.open();
 
 		document.add(new Paragraph(filename));
 
-		Table table = new Table(data.get(0).size());
+		PdfPTable table = new PdfPTable(data.get(0).size());
 
 		for (List<String> record : data) {
 			for (String field : record) {
-				Cell cell = new Cell().add(new Paragraph(field));
+				PdfPCell cell = new PdfPCell();
+				cell.addElement(new Paragraph(field));
 				table.addCell(cell);
-				System.out.println(field);
 			}
 		}
 		document.add(table);
@@ -116,16 +110,10 @@ public class PdfService {
 		File file = new File(filename);
 		file.getParentFile().mkdirs();
 
-		// Initialize PDF writer
-		PdfWriter writer = new PdfWriter(filename);
-
-		// Initialize PDF document
-		PdfDocument pdf = new PdfDocument(writer);
-
-		// Initialize document
-		Document document = new Document(pdf);
+		Document document = new Document();
+		PdfWriter.getInstance(document, new java.io.FileOutputStream(filename));
+		document.open();
 		
-
 		document.add(new Paragraph(contract.getTitle()));
 		
 		document.add(new Paragraph(contract.getClient().getName()));
