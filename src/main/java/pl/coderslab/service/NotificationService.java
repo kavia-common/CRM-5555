@@ -8,14 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import pl.coderslab.entity.Event;
 import pl.coderslab.entity.Notification;
 import pl.coderslab.repository.EventRepository;
 import pl.coderslab.repository.NotificationRepository;
 
 @Service
-@Log4j
+@Slf4j
 public class NotificationService {
 
 	private EventRepository eventRepository;

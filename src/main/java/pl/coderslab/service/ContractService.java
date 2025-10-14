@@ -6,14 +6,14 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import pl.coderslab.AuthenticationFacade;
 import pl.coderslab.entity.Client;
 import pl.coderslab.entity.Contract;
 import pl.coderslab.entity.User;
 import pl.coderslab.repository.ContractRepository;
 
-@Log4j
+@Slf4j
 @Service
 public class ContractService {
 

@@ -3,7 +3,7 @@ package pl.coderslab.web;
 import java.io.FileNotFoundException;
 import java.time.LocalDateTime;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
