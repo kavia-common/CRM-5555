@@ -90,7 +90,8 @@ public class ContractService {
 	 * @return Contract object
 	 */
 	public Contract findById(Long id) {
-		return contractRepository.findOne(id);
+		// Spring Data 3 removed findOne(id); use findById(id).orElse(null)
+		return contractRepository.findById(id).orElse(null);
 	}
 
 	/**Saves given contract to database

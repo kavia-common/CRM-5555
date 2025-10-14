@@ -36,7 +36,8 @@ public class ClientServiceImpl implements ClientService {
 	
 	@Override
 	public Client findById(Long id) {
-		return clientRepository.findOne(id);
+		// Spring Data 3 removed findOne(id); use findById(id).orElse(null)
+		return clientRepository.findById(id).orElse(null);
 	}
 	
 	@Override
@@ -74,7 +75,8 @@ public class ClientServiceImpl implements ClientService {
 
 	@Override
 	public void deleteClient(Long id) {
-		clientRepository.delete(id);
+		// Spring Data 3 removed delete(id); use deleteById(id)
+		clientRepository.deleteById(id);
 	}
 
 
