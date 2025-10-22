@@ -136,6 +136,22 @@
   </dependencies>
 
   <build>
+    <!-- Change default output directory to avoid target/classes permission issues in this environment -->
+    <outputDirectory>${project.build.directory}/build-classes</outputDirectory>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>false</filtering>
+        <!-- Ensure resources are written to the new output directory -->
+        <targetPath>${project.build.directory}/build-classes</targetPath>
+      </resource>
+    </resources>
+    <testResources>
+      <testResource>
+        <directory>src/test/resources</directory>
+        <filtering>false</filtering>
+      </testResource>
+    </testResources>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
