@@ -21,6 +21,27 @@ Note: in this project a free bootstrap templete [Vali Admin](https://github.com/
 - Generating notifications for today's events
 - API for clients
 
+## Run locally
+
+Prerequisites:
+- Java 17+
+- Internet access for Maven dependencies
+
+Commands:
+- Start on port 3001 (default):
+  ./mvnw -DskipTests spring-boot:run
+
+- Override port:
+  ./mvnw -DskipTests spring-boot:run -Dspring-boot.run.arguments=--server.port=3001
+
+Database:
+- By default the app uses an in-memory H2 database so it can start without MySQL.
+- To use MySQL, provide properties via environment variables or args, for example:
+  SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/crm \
+  SPRING_DATASOURCE_USERNAME=root \
+  SPRING_DATASOURCE_PASSWORD=secret \
+  ./mvnw -DskipTests spring-boot:run
+
 ## Authors
 
 Katarzyna Machowina - [machowina](https://github.com/machowina)
