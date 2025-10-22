@@ -1,0 +1,945 @@
+2025-10-22 09:54:05,724 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-10-22 09:54:06,031 - Knowledge - INFO - Starting Knowledge Graph processing with 50 threads
+2025-10-22 09:54:06,206 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-10-22 09:54:07,296 - Knowledge - INFO - load persisted knowledge: begin
+2025-10-22 09:54:08,512 - Knowledge - INFO - Persisted knowledge files in /app/data/kaviademo4200/5555/b30548k/CRM-5555/.knowledge have been renamed to use .json
+2025-10-22 09:54:08,732 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:08,953 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:09,164 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Client.java
+2025-10-22 09:54:09,377 - Knowledge - INFO - [FILE_READ] Completed: Client.java, Duration: 6ms, Size: 1142
+2025-10-22 09:54:09,571 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:09,773 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:09,990 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/PdfService.java
+2025-10-22 09:54:10,195 - Knowledge - INFO - [FILE_READ] Completed: PdfService.java, Duration: 5ms, Size: 5115
+2025-10-22 09:54:10,396 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:10,596 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:10,793 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ReportRepository.java
+2025-10-22 09:54:10,993 - Knowledge - INFO - [FILE_READ] Completed: ReportRepository.java, Duration: 5ms, Size: 270
+2025-10-22 09:54:11,194 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:11,371 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:11,556 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/User.java
+2025-10-22 09:54:11,764 - Knowledge - INFO - [FILE_READ] Completed: User.java, Duration: 5ms, Size: 1625
+2025-10-22 09:54:11,941 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:12,136 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:12,396 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.sampledata.js
+2025-10-22 09:54:12,603 - Knowledge - INFO - [FILE_READ] Completed: jquery.vmap.sampledata.js, Duration: 6ms, Size: 2386
+2025-10-22 09:54:12,798 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:12,951 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:13,153 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/css/main.css
+2025-10-22 09:54:13,327 - Knowledge - INFO - [FILE_READ] Completed: main.css, Duration: 15ms, Size: 321192
+2025-10-22 09:54:13,530 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:13,684 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:13,850 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/OfficeRepository.java
+2025-10-22 09:54:14,068 - Knowledge - INFO - [FILE_READ] Completed: OfficeRepository.java, Duration: 9ms, Size: 270
+2025-10-22 09:54:14,238 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:14,436 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:14,627 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index.html
+2025-10-22 09:54:14,825 - Knowledge - INFO - [FILE_READ] Completed: index.html, Duration: 5ms, Size: 2800
+2025-10-22 09:54:15,033 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:15,219 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:15,394 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Notification.java
+2025-10-22 09:54:15,603 - Knowledge - INFO - [FILE_READ] Completed: Notification.java, Duration: 5ms, Size: 649
+2025-10-22 09:54:15,796 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:15,978 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:16,154 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.min.js
+2025-10-22 09:54:16,350 - Knowledge - INFO - [FILE_READ] Completed: jquery.vmap.min.js, Duration: 6ms, Size: 20981
+2025-10-22 09:54:16,582 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:16,780 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:16,986 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SpringDataUserDetailsService.java
+2025-10-22 09:54:17,194 - Knowledge - INFO - [FILE_READ] Completed: SpringDataUserDetailsService.java, Duration: 5ms, Size: 1393
+2025-10-22 09:54:17,395 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:17,617 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:17,824 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-4.html
+2025-10-22 09:54:18,019 - Knowledge - INFO - [FILE_READ] Completed: index-4.html, Duration: 5ms, Size: 4025
+2025-10-22 09:54:18,247 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:18,402 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:18,606 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EventController.java
+2025-10-22 09:54:18,768 - Knowledge - INFO - [FILE_READ] Completed: EventController.java, Duration: 5ms, Size: 2238
+2025-10-22 09:54:18,953 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:19,116 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:19,375 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-summary.html
+2025-10-22 09:54:19,552 - Knowledge - INFO - [FILE_READ] Completed: package-summary.html, Duration: 7ms, Size: 4493
+2025-10-22 09:54:19,764 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:19,937 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:20,104 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/main.js
+2025-10-22 09:54:20,299 - Knowledge - INFO - [FILE_READ] Completed: main.js, Duration: 5ms, Size: 719
+2025-10-22 09:54:20,538 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:20,720 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:20,921 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/select2.min.js
+2025-10-22 09:54:21,119 - Knowledge - INFO - [FILE_READ] Completed: select2.min.js, Duration: 9ms, Size: 71908
+2025-10-22 09:54:21,333 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:21,520 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:21,714 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/class-use/NotificationService.html
+2025-10-22 09:54:21,933 - Knowledge - INFO - [FILE_READ] Completed: NotificationService.html, Duration: 5ms, Size: 4321
+2025-10-22 09:54:22,179 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:22,414 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:22,619 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Company.java
+2025-10-22 09:54:22,849 - Knowledge - INFO - [FILE_READ] Completed: Company.java, Duration: 5ms, Size: 689
+2025-10-22 09:54:23,035 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:23,225 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:23,397 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/layout.html
+2025-10-22 09:54:23,613 - Knowledge - INFO - [FILE_READ] Completed: layout.html, Duration: 6ms, Size: 8711
+2025-10-22 09:54:23,801 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:24,020 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:24,195 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ContractController.java
+2025-10-22 09:54:24,369 - Knowledge - INFO - [FILE_READ] Completed: ContractController.java, Duration: 7ms, Size: 3664
+2025-10-22 09:54:24,594 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:24,778 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:24,989 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/ContactPerson.java
+2025-10-22 09:54:25,162 - Knowledge - INFO - [FILE_READ] Completed: ContactPerson.java, Duration: 5ms, Size: 712
+2025-10-22 09:54:25,379 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:25,599 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:25,773 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/jquery-3.2.1.min.js
+2025-10-22 09:54:25,960 - Knowledge - INFO - [FILE_READ] Completed: jquery-3.2.1.min.js, Duration: 7ms, Size: 86659
+2025-10-22 09:54:26,150 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:26,320 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:26,542 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/help-doc.html
+2025-10-22 09:54:26,743 - Knowledge - INFO - [FILE_READ] Completed: help-doc.html, Duration: 8ms, Size: 8530
+2025-10-22 09:54:26,928 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:27,127 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:27,317 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-noframe.html
+2025-10-22 09:54:27,494 - Knowledge - INFO - [FILE_READ] Completed: allclasses-noframe.html, Duration: 5ms, Size: 661
+2025-10-22 09:54:27,710 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:27,877 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:28,109 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/result.html
+2025-10-22 09:54:28,318 - Knowledge - INFO - [FILE_READ] Completed: result.html, Duration: 5ms, Size: 844
+2025-10-22 09:54:28,553 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:28,735 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:28,954 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ContractService.java
+2025-10-22 09:54:29,150 - Knowledge - INFO - [FILE_READ] Completed: ContractService.java, Duration: 5ms, Size: 3249
+2025-10-22 09:54:29,321 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:29,540 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:29,736 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.world.js
+2025-10-22 09:54:29,938 - Knowledge - INFO - [FILE_READ] Completed: jquery.vmap.world.js, Duration: 6ms, Size: 60599
+2025-10-22 09:54:30,132 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:30,310 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:30,512 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/overview-tree.html
+2025-10-22 09:54:30,712 - Knowledge - INFO - [FILE_READ] Completed: overview-tree.html, Duration: 6ms, Size: 4018
+2025-10-22 09:54:30,933 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:31,097 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:31,301 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addClient.html
+2025-10-22 09:54:31,489 - Knowledge - INFO - [FILE_READ] Completed: addClient.html, Duration: 5ms, Size: 2992
+2025-10-22 09:54:31,672 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:31,838 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:32,042 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/AddressService.java
+2025-10-22 09:54:32,257 - Knowledge - INFO - [FILE_READ] Completed: AddressService.java, Duration: 6ms, Size: 881
+2025-10-22 09:54:32,414 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:32,597 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:32,789 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EmployeeSearchController.java
+2025-10-22 09:54:32,981 - Knowledge - INFO - [FILE_READ] Completed: EmployeeSearchController.java, Duration: 9ms, Size: 4592
+2025-10-22 09:54:33,182 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:33,380 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:33,621 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/result.html
+2025-10-22 09:54:33,793 - Knowledge - INFO - [FILE_READ] Completed: result.html, Duration: 5ms, Size: 824
+2025-10-22 09:54:33,989 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:34,178 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:34,394 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContractRepository.java
+2025-10-22 09:54:34,614 - Knowledge - INFO - [FILE_READ] Completed: ContractRepository.java, Duration: 5ms, Size: 458
+2025-10-22 09:54:34,822 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:35,020 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:35,228 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/deprecated-list.html
+2025-10-22 09:54:35,454 - Knowledge - INFO - [FILE_READ] Completed: deprecated-list.html, Duration: 5ms, Size: 3545
+2025-10-22 09:54:35,643 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:35,834 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:35,992 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-tree.html
+2025-10-22 09:54:36,176 - Knowledge - INFO - [FILE_READ] Completed: package-tree.html, Duration: 5ms, Size: 4072
+2025-10-22 09:54:36,351 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:36,540 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:36,760 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery-ui.custom.min.js
+2025-10-22 09:54:36,980 - Knowledge - INFO - [FILE_READ] Completed: jquery-ui.custom.min.js, Duration: 6ms, Size: 32591
+2025-10-22 09:54:37,198 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:37,398 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:38,305 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-notify.min.js
+2025-10-22 09:54:38,508 - Knowledge - INFO - [FILE_READ] Completed: bootstrap-notify.min.js, Duration: 6ms, Size: 8117
+2025-10-22 09:54:38,705 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:38,913 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:39,094 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/AddressRepository.java
+2025-10-22 09:54:39,317 - Knowledge - INFO - [FILE_READ] Completed: AddressRepository.java, Duration: 10ms, Size: 274
+2025-10-22 09:54:39,520 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:39,675 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:39,850 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/moment.min.js
+2025-10-22 09:54:40,064 - Knowledge - INFO - [FILE_READ] Completed: moment.min.js, Duration: 6ms, Size: 34737
+2025-10-22 09:54:40,276 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:40,512 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:40,760 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/stylesheet.css
+2025-10-22 09:54:40,929 - Knowledge - INFO - [FILE_READ] Completed: stylesheet.css, Duration: 7ms, Size: 12842
+2025-10-22 09:54:41,128 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:41,322 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:41,495 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/EventRepository.java
+2025-10-22 09:54:41,686 - Knowledge - INFO - [FILE_READ] Completed: EventRepository.java, Duration: 6ms, Size: 563
+2025-10-22 09:54:41,884 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:42,071 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:42,276 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/addUser.html
+2025-10-22 09:54:42,481 - Knowledge - INFO - [FILE_READ] Completed: addUser.html, Duration: 6ms, Size: 2570
+2025-10-22 09:54:42,652 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:42,860 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:43,071 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-2.html
+2025-10-22 09:54:43,253 - Knowledge - INFO - [FILE_READ] Completed: index-2.html, Duration: 6ms, Size: 4403
+2025-10-22 09:54:43,428 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:43,624 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:43,856 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/search.html
+2025-10-22 09:54:44,033 - Knowledge - INFO - [FILE_READ] Completed: search.html, Duration: 5ms, Size: 4150
+2025-10-22 09:54:44,258 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:44,433 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:44,615 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/result.html
+2025-10-22 09:54:44,845 - Knowledge - INFO - [FILE_READ] Completed: result.html, Duration: 5ms, Size: 824
+2025-10-22 09:54:45,050 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:45,233 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:45,412 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/chart.js
+2025-10-22 09:54:45,586 - Knowledge - INFO - [FILE_READ] Completed: chart.js, Duration: 7ms, Size: 109482
+2025-10-22 09:54:45,806 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:46,003 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:46,201 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/RoleRepository.java
+2025-10-22 09:54:46,363 - Knowledge - INFO - [FILE_READ] Completed: RoleRepository.java, Duration: 7ms, Size: 295
+2025-10-22 09:54:46,564 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:46,786 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:46,971 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/sweetalert.min.js
+2025-10-22 09:54:47,172 - Knowledge - INFO - [FILE_READ] Completed: sweetalert.min.js, Duration: 6ms, Size: 16977
+2025-10-22 09:54:47,385 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:47,601 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:47,841 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/index.html
+2025-10-22 09:54:48,066 - Knowledge - INFO - [FILE_READ] Completed: index.html, Duration: 5ms, Size: 3728
+2025-10-22 09:54:48,229 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:48,410 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:48,624 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/show.html
+2025-10-22 09:54:48,798 - Knowledge - INFO - [FILE_READ] Completed: show.html, Duration: 5ms, Size: 1977
+2025-10-22 09:54:48,971 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:49,182 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:49,397 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ImportController.java
+2025-10-22 09:54:49,567 - Knowledge - INFO - [FILE_READ] Completed: ImportController.java, Duration: 5ms, Size: 1521
+2025-10-22 09:54:49,798 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:49,994 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:50,185 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientDto.java
+2025-10-22 09:54:50,384 - Knowledge - INFO - [FILE_READ] Completed: ClientDto.java, Duration: 5ms, Size: 686
+2025-10-22 09:54:50,579 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:50,765 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:50,979 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/new.html
+2025-10-22 09:54:51,171 - Knowledge - INFO - [FILE_READ] Completed: new.html, Duration: 5ms, Size: 1942
+2025-10-22 09:54:51,385 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:51,604 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:51,792 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/getFilename.html
+2025-10-22 09:54:51,967 - Knowledge - INFO - [FILE_READ] Completed: getFilename.html, Duration: 5ms, Size: 1019
+2025-10-22 09:54:52,169 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:52,320 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:52,500 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/AuthenticationFacade.java
+2025-10-22 09:54:52,724 - Knowledge - INFO - [FILE_READ] Completed: AuthenticationFacade.java, Duration: 6ms, Size: 699
+2025-10-22 09:54:52,927 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:53,142 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:53,338 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/editClient.html
+2025-10-22 09:54:53,523 - Knowledge - INFO - [FILE_READ] Completed: editClient.html, Duration: 6ms, Size: 3159
+2025-10-22 09:54:53,714 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:53,911 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:54,089 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/clientDetails.html
+2025-10-22 09:54:54,292 - Knowledge - INFO - [FILE_READ] Completed: clientDetails.html, Duration: 5ms, Size: 4176
+2025-10-22 09:54:54,466 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:54,676 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:54,875 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/NotificationService.html
+2025-10-22 09:54:55,090 - Knowledge - INFO - [FILE_READ] Completed: NotificationService.html, Duration: 6ms, Size: 10189
+2025-10-22 09:54:55,262 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:55,457 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:55,621 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.dataTables.min.js
+2025-10-22 09:54:55,791 - Knowledge - INFO - [FILE_READ] Completed: jquery.dataTables.min.js, Duration: 7ms, Size: 81901
+2025-10-22 09:54:56,005 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:56,208 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:56,464 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/CrmApplicationTests.java
+2025-10-22 09:54:56,636 - Knowledge - INFO - [FILE_READ] Completed: CrmApplicationTests.java, Duration: 5ms, Size: 326
+2025-10-22 09:54:56,842 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:57,015 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:57,245 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/script.js
+2025-10-22 09:54:57,462 - Knowledge - INFO - [FILE_READ] Completed: script.js, Duration: 6ms, Size: 827
+2025-10-22 09:54:57,642 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:57,782 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:58,010 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-frame.html
+2025-10-22 09:54:58,227 - Knowledge - INFO - [FILE_READ] Completed: package-frame.html, Duration: 5ms, Size: 825
+2025-10-22 09:54:58,459 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:58,693 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:58,870 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/api/ClientResource.java
+2025-10-22 09:54:59,062 - Knowledge - INFO - [FILE_READ] Completed: ClientResource.java, Duration: 6ms, Size: 1979
+2025-10-22 09:54:59,223 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:54:59,414 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:54:59,586 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ClientController.java
+2025-10-22 09:54:59,824 - Knowledge - INFO - [FILE_READ] Completed: ClientController.java, Duration: 5ms, Size: 3394
+2025-10-22 09:55:00,043 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:00,270 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:00,477 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserService.java
+2025-10-22 09:55:00,684 - Knowledge - INFO - [FILE_READ] Completed: UserService.java, Duration: 5ms, Size: 769
+2025-10-22 09:55:00,898 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:01,130 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:01,318 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientService.java
+2025-10-22 09:55:01,510 - Knowledge - INFO - [FILE_READ] Completed: ClientService.java, Duration: 5ms, Size: 1260
+2025-10-22 09:55:01,695 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:01,899 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:02,075 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-1.html
+2025-10-22 09:55:02,318 - Knowledge - INFO - [FILE_READ] Completed: index-1.html, Duration: 6ms, Size: 4361
+2025-10-22 09:55:02,513 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:02,731 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:02,948 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Report.java
+2025-10-22 09:55:03,155 - Knowledge - INFO - [FILE_READ] Completed: Report.java, Duration: 7ms, Size: 616
+2025-10-22 09:55:03,342 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:03,538 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:03,753 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addSimilarClient.html
+2025-10-22 09:55:03,930 - Knowledge - INFO - [FILE_READ] Completed: addSimilarClient.html, Duration: 5ms, Size: 2728
+2025-10-22 09:55:04,131 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:04,338 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:04,517 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/README.md
+2025-10-22 09:55:04,722 - Knowledge - INFO - [FILE_READ] Completed: README.md, Duration: 5ms, Size: 987
+2025-10-22 09:55:04,970 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:05,184 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:05,367 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-datepicker.min.js
+2025-10-22 09:55:05,535 - Knowledge - INFO - [FILE_READ] Completed: bootstrap-datepicker.min.js, Duration: 5ms, Size: 32025
+2025-10-22 09:55:05,729 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:05,888 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:06,104 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/success.html
+2025-10-22 09:55:06,313 - Knowledge - INFO - [FILE_READ] Completed: success.html, Duration: 5ms, Size: 823
+2025-10-22 09:55:06,476 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:06,664 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:06,861 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Office.java
+2025-10-22 09:55:07,084 - Knowledge - INFO - [FILE_READ] Completed: Office.java, Duration: 5ms, Size: 690
+2025-10-22 09:55:07,280 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:07,472 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:07,688 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/NotificationService.java
+2025-10-22 09:55:07,908 - Knowledge - INFO - [FILE_READ] Completed: NotificationService.java, Duration: 5ms, Size: 3291
+2025-10-22 09:55:08,087 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:08,287 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:08,451 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/new.html
+2025-10-22 09:55:08,672 - Knowledge - INFO - [FILE_READ] Completed: new.html, Duration: 6ms, Size: 1630
+2025-10-22 09:55:08,860 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:09,078 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:09,288 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Role.java
+2025-10-22 09:55:09,499 - Knowledge - INFO - [FILE_READ] Completed: Role.java, Duration: 6ms, Size: 516
+2025-10-22 09:55:09,684 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:09,887 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:10,082 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Event.java
+2025-10-22 09:55:10,300 - Knowledge - INFO - [FILE_READ] Completed: Event.java, Duration: 5ms, Size: 956
+2025-10-22 09:55:10,496 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:10,689 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:10,893 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SecurityConfig.java
+2025-10-22 09:55:11,056 - Knowledge - INFO - [FILE_READ] Completed: SecurityConfig.java, Duration: 5ms, Size: 1699
+2025-10-22 09:55:11,259 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:11,403 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:11,621 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/UserRepository.java
+2025-10-22 09:55:11,826 - Knowledge - INFO - [FILE_READ] Completed: UserRepository.java, Duration: 6ms, Size: 362
+2025-10-22 09:55:12,049 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:12,256 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:12,420 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/fullcalendar.min.js
+2025-10-22 09:55:12,626 - Knowledge - INFO - [FILE_READ] Completed: fullcalendar.min.js, Duration: 8ms, Size: 102798
+2025-10-22 09:55:12,793 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:12,966 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:13,161 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ClientRepository.java
+2025-10-22 09:55:13,372 - Knowledge - INFO - [FILE_READ] Completed: ClientRepository.java, Duration: 6ms, Size: 1237
+2025-10-22 09:55:13,578 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:13,754 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:13,931 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/bootstrap.min.js
+2025-10-22 09:55:14,133 - Knowledge - INFO - [FILE_READ] Completed: bootstrap.min.js, Duration: 12ms, Size: 51143
+2025-10-22 09:55:14,295 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:14,487 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:14,667 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SwaggerConfig.java
+2025-10-22 09:55:14,834 - Knowledge - INFO - [FILE_READ] Completed: SwaggerConfig.java, Duration: 4ms, Size: 976
+2025-10-22 09:55:15,053 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:15,271 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:15,433 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/CompanyRepository.java
+2025-10-22 09:55:15,677 - Knowledge - INFO - [FILE_READ] Completed: CompanyRepository.java, Duration: 5ms, Size: 273
+2025-10-22 09:55:15,871 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:16,061 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:16,266 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/NotificationRepository.java
+2025-10-22 09:55:16,499 - Knowledge - INFO - [FILE_READ] Completed: NotificationRepository.java, Duration: 6ms, Size: 532
+2025-10-22 09:55:16,686 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:16,888 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:17,048 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/CrmApplication.java
+2025-10-22 09:55:17,272 - Knowledge - INFO - [FILE_READ] Completed: CrmApplication.java, Duration: 5ms, Size: 1850
+2025-10-22 09:55:17,467 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:17,630 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:17,795 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/search.html
+2025-10-22 09:55:18,018 - Knowledge - INFO - [FILE_READ] Completed: search.html, Duration: 5ms, Size: 3958
+2025-10-22 09:55:18,230 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:18,403 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:18,597 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/pom.xml
+2025-10-22 09:55:18,797 - Knowledge - INFO - [FILE_READ] Completed: pom.xml, Duration: 2ms, Size: 3915
+2025-10-22 09:55:19,033 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:19,207 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:19,378 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/popper.min.js
+2025-10-22 09:55:19,563 - Knowledge - INFO - [FILE_READ] Completed: popper.min.js, Duration: 6ms, Size: 18994
+2025-10-22 09:55:19,768 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:19,927 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:20,168 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContactPersonRepository.java
+2025-10-22 09:55:20,390 - Knowledge - INFO - [FILE_READ] Completed: ContactPersonRepository.java, Duration: 5ms, Size: 291
+2025-10-22 09:55:20,601 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:20,818 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:20,990 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ClientResourceTest.java
+2025-10-22 09:55:21,189 - Knowledge - INFO - [FILE_READ] Completed: ClientResourceTest.java, Duration: 5ms, Size: 2328
+2025-10-22 09:55:21,405 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:21,600 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:21,842 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ManagerSearchController.java
+2025-10-22 09:55:22,036 - Knowledge - INFO - [FILE_READ] Completed: ManagerSearchController.java, Duration: 11ms, Size: 4868
+2025-10-22 09:55:22,210 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:22,407 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:22,565 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-use.html
+2025-10-22 09:55:22,747 - Knowledge - INFO - [FILE_READ] Completed: package-use.html, Duration: 7ms, Size: 3888
+2025-10-22 09:55:22,925 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:23,127 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:23,331 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/success.html
+2025-10-22 09:55:23,599 - Knowledge - INFO - [FILE_READ] Completed: success.html, Duration: 5ms, Size: 817
+2025-10-22 09:55:23,772 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:23,967 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:24,195 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserServiceImpl.java
+2025-10-22 09:55:24,393 - Knowledge - INFO - [FILE_READ] Completed: UserServiceImpl.java, Duration: 5ms, Size: 1429
+2025-10-22 09:55:24,584 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:24,755 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:24,912 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-3.html
+2025-10-22 09:55:25,090 - Knowledge - INFO - [FILE_READ] Completed: index-3.html, Duration: 6ms, Size: 4673
+2025-10-22 09:55:25,283 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:25,481 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:25,667 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Address.java
+2025-10-22 09:55:25,851 - Knowledge - INFO - [FILE_READ] Completed: Address.java, Duration: 5ms, Size: 562
+2025-10-22 09:55:26,054 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:26,237 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:26,413 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientServiceImpl.java
+2025-10-22 09:55:26,627 - Knowledge - INFO - [FILE_READ] Completed: ClientServiceImpl.java, Duration: 6ms, Size: 2203
+2025-10-22 09:55:26,825 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:27,005 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:27,183 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/dataTables.bootstrap.min.js
+2025-10-22 09:55:27,337 - Knowledge - INFO - [FILE_READ] Completed: dataTables.bootstrap.min.js, Duration: 5ms, Size: 2069
+2025-10-22 09:55:27,518 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:27,701 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:27,917 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-frame.html
+2025-10-22 09:55:28,132 - Knowledge - INFO - [FILE_READ] Completed: allclasses-frame.html, Duration: 5ms, Size: 681
+2025-10-22 09:55:28,294 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:28,471 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:28,703 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/pace.min.js
+2025-10-22 09:55:28,862 - Knowledge - INFO - [FILE_READ] Completed: pace.min.js, Duration: 5ms, Size: 12552
+2025-10-22 09:55:29,070 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:29,272 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:29,463 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/resources/Client.json
+2025-10-22 09:55:29,653 - Knowledge - INFO - [FILE_READ] Completed: Client.json, Duration: 5ms, Size: 408
+2025-10-22 09:55:29,865 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:30,061 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:30,239 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/HomeController.java
+2025-10-22 09:55:30,400 - Knowledge - INFO - [FILE_READ] Completed: HomeController.java, Duration: 5ms, Size: 1238
+2025-10-22 09:55:30,590 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:30,798 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:30,997 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Contract.java
+2025-10-22 09:55:31,210 - Knowledge - INFO - [FILE_READ] Completed: Contract.java, Duration: 5ms, Size: 808
+2025-10-22 09:55:31,430 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:31,621 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:31,815 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/AdminController.java
+2025-10-22 09:55:31,990 - Knowledge - INFO - [FILE_READ] Completed: AdminController.java, Duration: 5ms, Size: 1957
+2025-10-22 09:55:32,202 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:32,370 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:32,586 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/constant-values.html
+2025-10-22 09:55:32,781 - Knowledge - INFO - [FILE_READ] Completed: constant-values.html, Duration: 4ms, Size: 3595
+2025-10-22 09:55:32,947 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:33,138 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:33,335 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ContractServiceTest.java
+2025-10-22 09:55:33,581 - Knowledge - INFO - [FILE_READ] Completed: ContractServiceTest.java, Duration: 6ms, Size: 3118
+2025-10-22 09:55:33,775 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:33,969 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:34,152 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/CsvImportExportService.java
+2025-10-22 09:55:34,306 - Knowledge - INFO - [FILE_READ] Completed: CsvImportExportService.java, Duration: 5ms, Size: 2581
+2025-10-22 09:55:34,520 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:34,719 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:34,885 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/result.html
+2025-10-22 09:55:35,090 - Knowledge - INFO - [FILE_READ] Completed: result.html, Duration: 6ms, Size: 844
+2025-10-22 09:55:35,295 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/CRM-5555.git:kavia-master
+2025-10-22 09:55:35,462 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f71b1d6c950>
+2025-10-22 09:55:35,645 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientMapper.java
+2025-10-22 09:55:35,827 - Knowledge - INFO - [FILE_READ] Completed: ClientMapper.java, Duration: 5ms, Size: 2354
+2025-10-22 09:55:36,002 - Knowledge - INFO - Loaded 110 files from persisted knowledge
+2025-10-22 09:55:36,220 - Knowledge - INFO - load persisted knowledge: end
+2025-10-22 09:55:36,416 - Knowledge - INFO - Redis support added with prefix knowledge:b30548k:
+2025-10-22 09:55:36,871 - Knowledge - INFO - load persisted docinfo: begin
+2025-10-22 09:55:37,086 - Knowledge - INFO - load persisted docinfo: end
+2025-10-22 09:55:37,248 - Knowledge - INFO - Worker kw1 created using shared MongoDB connection pool
+2025-10-22 09:55:37,470 - Knowledge - INFO - knowledge worker kw1 start
+2025-10-22 09:55:37,471 - Knowledge - INFO - Worker kw2 created using shared MongoDB connection pool
+2025-10-22 09:55:37,627 - Knowledge - INFO - [kw1] Queue=110, InProgress=0, PendingWorkers=0/1, Completed=0/110 (0.0%)
+2025-10-22 09:55:37,724 - Knowledge - INFO - knowledge worker kw2 start
+2025-10-22 09:55:37,725 - Knowledge - INFO - Worker kw3 created using shared MongoDB connection pool
+2025-10-22 09:55:37,809 - Knowledge - INFO - Dynamic batch size: 60 for queue=110
+2025-10-22 09:55:37,921 - Knowledge - INFO - [kw2] Queue=110, InProgress=0, PendingWorkers=0/2, Completed=0/110 (0.0%)
+2025-10-22 09:55:38,037 - Knowledge - INFO - knowledge worker kw3 start
+2025-10-22 09:55:38,037 - Knowledge - INFO - Worker kw4 created using shared MongoDB connection pool
+2025-10-22 09:55:38,148 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Client.java
+2025-10-22 09:55:38,255 - Knowledge - INFO - Dynamic batch size: 30 for queue=110
+2025-10-22 09:55:38,337 - Knowledge - INFO - [kw3] Queue=50, InProgress=0, PendingWorkers=1/3, Completed=0/110 (0.0%)
+2025-10-22 09:55:38,433 - Knowledge - INFO - knowledge worker kw4 start
+2025-10-22 09:55:38,433 - Knowledge - INFO - Worker kw5 created using shared MongoDB connection pool
+2025-10-22 09:55:38,549 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Client.java (ext=.java, size=1142)
+2025-10-22 09:55:38,632 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/script.js
+2025-10-22 09:55:38,741 - Knowledge - INFO - Dynamic batch size: 20 for queue=50
+2025-10-22 09:55:38,824 - Knowledge - INFO - [kw4] Queue=20, InProgress=0, PendingWorkers=2/4, Completed=0/110 (0.0%)
+2025-10-22 09:55:38,907 - Knowledge - INFO - knowledge worker kw5 start
+2025-10-22 09:55:38,907 - Knowledge - INFO - Worker kw6 created using shared MongoDB connection pool
+2025-10-22 09:55:38,992 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/PdfService.java
+2025-10-22 09:55:39,135 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/script.js (ext=.js, size=827)
+2025-10-22 09:55:39,212 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ClientResourceTest.java
+2025-10-22 09:55:39,340 - Knowledge - INFO - Dynamic batch size: 20 for queue=20
+2025-10-22 09:55:39,606 - Knowledge - INFO - knowledge worker kw6 start
+2025-10-22 09:55:39,606 - Knowledge - INFO - Worker kw7 created using shared MongoDB connection pool
+2025-10-22 09:55:39,713 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ReportRepository.java
+2025-10-22 09:55:39,831 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-frame.html
+2025-10-22 09:55:39,962 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ClientResourceTest.java (ext=.java, size=2328)
+2025-10-22 09:55:40,304 - Knowledge - INFO - knowledge worker kw7 start
+2025-10-22 09:55:40,305 - Knowledge - INFO - Worker kw8 created using shared MongoDB connection pool
+2025-10-22 09:55:40,396 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ReportRepository.java (ext=.java, size=270)
+2025-10-22 09:55:40,471 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-frame.html (ext=.html, size=825)
+2025-10-22 09:55:40,548 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ManagerSearchController.java
+2025-10-22 09:55:40,707 - Knowledge - INFO - knowledge worker kw8 start
+2025-10-22 09:55:40,707 - Knowledge - INFO - Worker kw9 created using shared MongoDB connection pool
+2025-10-22 09:55:40,795 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/User.java
+2025-10-22 09:55:40,896 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/api/ClientResource.java
+2025-10-22 09:55:41,008 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-use.html
+2025-10-22 09:55:41,186 - Knowledge - INFO - knowledge worker kw9 start
+2025-10-22 09:55:41,186 - Knowledge - INFO - Worker kw10 created using shared MongoDB connection pool
+2025-10-22 09:55:41,285 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/User.java (ext=.java, size=1625)
+2025-10-22 09:55:41,395 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/api/ClientResource.java (ext=.java, size=1979)
+2025-10-22 09:55:41,494 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/success.html
+2025-10-22 09:55:41,685 - Knowledge - INFO - knowledge worker kw10 start
+2025-10-22 09:55:41,688 - Knowledge - INFO - Worker kw11 created using shared MongoDB connection pool
+2025-10-22 09:55:41,795 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.sampledata.js
+2025-10-22 09:55:41,907 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ClientController.java
+2025-10-22 09:55:42,018 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/success.html (ext=.html, size=817)
+2025-10-22 09:55:42,246 - Knowledge - INFO - knowledge worker kw11 start
+2025-10-22 09:55:42,248 - Knowledge - INFO - Worker kw12 created using shared MongoDB connection pool
+2025-10-22 09:55:42,358 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/css/main.css
+2025-10-22 09:55:42,465 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserService.java
+2025-10-22 09:55:42,571 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserServiceImpl.java
+2025-10-22 09:55:42,774 - Knowledge - INFO - knowledge worker kw12 start
+2025-10-22 09:55:42,774 - Knowledge - INFO - Worker kw13 created using shared MongoDB connection pool
+2025-10-22 09:55:42,904 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/css/main.css (ext=.css, size=321208)
+2025-10-22 09:55:43,018 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserService.java (ext=.java, size=769)
+2025-10-22 09:55:43,112 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserServiceImpl.java (ext=.java, size=1429)
+2025-10-22 09:55:43,316 - Knowledge - INFO - knowledge worker kw13 start
+2025-10-22 09:55:43,318 - Knowledge - INFO - Worker kw14 created using shared MongoDB connection pool
+2025-10-22 09:55:43,426 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/OfficeRepository.java
+2025-10-22 09:55:43,536 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientService.java
+2025-10-22 09:55:43,619 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-3.html
+2025-10-22 09:55:43,831 - Knowledge - INFO - knowledge worker kw14 start
+2025-10-22 09:55:43,831 - Knowledge - INFO - Worker kw15 created using shared MongoDB connection pool
+2025-10-22 09:55:43,936 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/OfficeRepository.java (ext=.java, size=270)
+2025-10-22 09:55:44,028 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientService.java (ext=.java, size=1260)
+2025-10-22 09:55:44,105 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Address.java
+2025-10-22 09:55:44,277 - Knowledge - INFO - knowledge worker kw15 start
+2025-10-22 09:55:44,277 - Knowledge - INFO - Worker kw16 created using shared MongoDB connection pool
+2025-10-22 09:55:44,400 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index.html
+2025-10-22 09:55:44,488 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-1.html
+2025-10-22 09:55:44,615 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Address.java (ext=.java, size=562)
+2025-10-22 09:55:44,853 - Knowledge - INFO - knowledge worker kw16 start
+2025-10-22 09:55:44,853 - Knowledge - INFO - Worker kw17 created using shared MongoDB connection pool
+2025-10-22 09:55:44,970 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Notification.java
+2025-10-22 09:55:45,077 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Report.java
+2025-10-22 09:55:45,154 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientServiceImpl.java
+2025-10-22 09:55:45,316 - Knowledge - INFO - knowledge worker kw17 start
+2025-10-22 09:55:45,316 - Knowledge - INFO - Worker kw18 created using shared MongoDB connection pool
+2025-10-22 09:55:45,424 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Notification.java (ext=.java, size=649)
+2025-10-22 09:55:45,509 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Report.java (ext=.java, size=616)
+2025-10-22 09:55:45,589 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/dataTables.bootstrap.min.js
+2025-10-22 09:55:45,797 - Knowledge - INFO - knowledge worker kw18 start
+2025-10-22 09:55:45,797 - Knowledge - INFO - Worker kw19 created using shared MongoDB connection pool
+2025-10-22 09:55:45,887 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.min.js
+2025-10-22 09:55:45,973 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addSimilarClient.html
+2025-10-22 09:55:46,091 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/dataTables.bootstrap.min.js (ext=.js, size=2070)
+2025-10-22 09:55:46,311 - Knowledge - INFO - knowledge worker kw19 start
+2025-10-22 09:55:46,311 - Knowledge - INFO - Worker kw20 created using shared MongoDB connection pool
+2025-10-22 09:55:46,406 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.min.js (ext=.js, size=20981)
+2025-10-22 09:55:46,507 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/README.md
+2025-10-22 09:55:46,664 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-frame.html
+2025-10-22 09:55:46,855 - Knowledge - INFO - knowledge worker kw20 start
+2025-10-22 09:55:46,855 - Knowledge - INFO - Worker kw21 created using shared MongoDB connection pool
+2025-10-22 09:55:46,976 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SpringDataUserDetailsService.java
+2025-10-22 09:55:47,098 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/README.md (ext=.md, size=987)
+2025-10-22 09:55:47,216 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-frame.html (ext=.html, size=681)
+2025-10-22 09:55:47,398 - Knowledge - INFO - knowledge worker kw21 start
+2025-10-22 09:55:47,399 - Knowledge - INFO - Worker kw22 created using shared MongoDB connection pool
+2025-10-22 09:55:47,515 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SpringDataUserDetailsService.java (ext=.java, size=1393)
+2025-10-22 09:55:47,633 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-datepicker.min.js
+2025-10-22 09:55:47,724 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/pace.min.js
+2025-10-22 09:55:47,917 - Knowledge - INFO - knowledge worker kw22 start
+2025-10-22 09:55:47,919 - Knowledge - INFO - Worker kw23 created using shared MongoDB connection pool
+2025-10-22 09:55:48,020 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-4.html
+2025-10-22 09:55:48,113 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-datepicker.min.js (ext=.js, size=32025)
+2025-10-22 09:55:48,214 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/pace.min.js (ext=.js, size=12552)
+2025-10-22 09:55:48,431 - Knowledge - INFO - knowledge worker kw23 start
+2025-10-22 09:55:48,431 - Knowledge - INFO - Worker kw24 created using shared MongoDB connection pool
+2025-10-22 09:55:48,520 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EventController.java
+2025-10-22 09:55:48,622 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/success.html
+2025-10-22 09:55:48,737 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/resources/Client.json
+2025-10-22 09:55:48,911 - Knowledge - INFO - knowledge worker kw24 start
+2025-10-22 09:55:48,912 - Knowledge - INFO - Worker kw25 created using shared MongoDB connection pool
+2025-10-22 09:55:49,029 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-summary.html
+2025-10-22 09:55:49,149 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/success.html (ext=.html, size=823)
+2025-10-22 09:55:49,266 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/resources/Client.json (ext=.json, size=408)
+2025-10-22 09:55:49,488 - Knowledge - INFO - knowledge worker kw25 start
+2025-10-22 09:55:49,489 - Knowledge - INFO - Worker kw26 created using shared MongoDB connection pool
+2025-10-22 09:55:49,607 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/main.js
+2025-10-22 09:55:49,684 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Office.java
+2025-10-22 09:55:49,801 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/HomeController.java
+2025-10-22 09:55:49,969 - Knowledge - INFO - knowledge worker kw26 start
+2025-10-22 09:55:49,970 - Knowledge - INFO - Worker kw27 created using shared MongoDB connection pool
+2025-10-22 09:55:50,060 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/main.js (ext=.js, size=719)
+2025-10-22 09:55:50,144 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Office.java (ext=.java, size=690)
+2025-10-22 09:55:50,222 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/HomeController.java (ext=.java, size=1238)
+2025-10-22 09:55:50,394 - Knowledge - INFO - knowledge worker kw27 start
+2025-10-22 09:55:50,394 - Knowledge - INFO - Worker kw28 created using shared MongoDB connection pool
+2025-10-22 09:55:50,495 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/select2.min.js
+2025-10-22 09:55:50,575 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/NotificationService.java
+2025-10-22 09:55:50,658 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Contract.java
+2025-10-22 09:55:50,881 - Knowledge - INFO - knowledge worker kw28 start
+2025-10-22 09:55:50,881 - Knowledge - INFO - Worker kw29 created using shared MongoDB connection pool
+2025-10-22 09:55:50,976 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/select2.min.js (ext=.js, size=73227)
+2025-10-22 09:55:51,064 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/new.html
+2025-10-22 09:55:51,182 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Contract.java (ext=.java, size=808)
+2025-10-22 09:55:51,368 - Knowledge - INFO - knowledge worker kw29 start
+2025-10-22 09:55:51,368 - Knowledge - INFO - Worker kw30 created using shared MongoDB connection pool
+2025-10-22 09:55:51,447 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/class-use/NotificationService.html
+2025-10-22 09:55:51,572 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/new.html (ext=.html, size=1630)
+2025-10-22 09:55:51,678 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/AdminController.java
+2025-10-22 09:55:51,873 - Knowledge - INFO - knowledge worker kw30 start
+2025-10-22 09:55:51,964 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Company.java
+2025-10-22 09:55:52,044 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Role.java
+2025-10-22 09:55:52,141 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/AdminController.java (ext=.java, size=1957)
+2025-10-22 09:55:52,365 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Company.java (ext=.java, size=689)
+2025-10-22 09:55:52,442 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Role.java (ext=.java, size=516)
+2025-10-22 09:55:52,527 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/constant-values.html
+2025-10-22 09:55:52,608 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/layout.html
+2025-10-22 09:55:52,711 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Event.java
+2025-10-22 09:55:52,835 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ContractServiceTest.java
+2025-10-22 09:55:52,906 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ContractController.java
+2025-10-22 09:55:52,985 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Event.java (ext=.java, size=956)
+2025-10-22 09:55:53,109 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ContractServiceTest.java (ext=.java, size=3118)
+2025-10-22 09:55:53,228 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/ContactPerson.java
+2025-10-22 09:55:53,319 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SecurityConfig.java
+2025-10-22 09:55:53,391 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/CsvImportExportService.java
+2025-10-22 09:55:53,492 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/ContactPerson.java (ext=.java, size=712)
+2025-10-22 09:55:53,587 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SecurityConfig.java (ext=.java, size=1699)
+2025-10-22 09:55:53,668 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/result.html
+2025-10-22 09:55:53,752 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/jquery-3.2.1.min.js
+2025-10-22 09:55:53,824 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/UserRepository.java
+2025-10-22 09:55:53,940 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/result.html (ext=.html, size=844)
+2025-10-22 09:55:54,017 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/jquery-3.2.1.min.js (ext=.js, size=86659)
+2025-10-22 09:55:54,122 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/UserRepository.java (ext=.java, size=362)
+2025-10-22 09:55:54,207 - Knowledge - INFO - Worker kw3 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientMapper.java
+2025-10-22 09:55:54,308 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/help-doc.html
+2025-10-22 09:55:54,425 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/fullcalendar.min.js
+2025-10-22 09:55:54,588 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-noframe.html
+2025-10-22 09:55:54,665 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/fullcalendar.min.js (ext=.js, size=102800)
+2025-10-22 09:55:54,755 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-noframe.html (ext=.html, size=661)
+2025-10-22 09:55:54,844 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ClientRepository.java
+2025-10-22 09:55:54,990 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/result.html
+2025-10-22 09:55:55,082 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ClientRepository.java (ext=.java, size=1237)
+2025-10-22 09:55:55,205 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/result.html (ext=.html, size=844)
+2025-10-22 09:55:55,302 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/bootstrap.min.js
+2025-10-22 09:55:55,413 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ContractService.java
+2025-10-22 09:55:55,502 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/bootstrap.min.js (ext=.js, size=51143)
+2025-10-22 09:55:55,632 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.world.js
+2025-10-22 09:55:55,727 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SwaggerConfig.java
+2025-10-22 09:55:55,852 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/overview-tree.html
+2025-10-22 09:55:55,936 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SwaggerConfig.java (ext=.java, size=976)
+2025-10-22 09:55:56,055 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addClient.html
+2025-10-22 09:55:56,135 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/CompanyRepository.java
+2025-10-22 09:55:56,225 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/AddressService.java
+2025-10-22 09:55:56,332 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/CompanyRepository.java (ext=.java, size=273)
+2025-10-22 09:55:56,428 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/AddressService.java (ext=.java, size=881)
+2025-10-22 09:55:56,528 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/NotificationRepository.java
+2025-10-22 09:55:56,693 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EmployeeSearchController.java
+2025-10-22 09:55:56,780 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/NotificationRepository.java (ext=.java, size=532)
+2025-10-22 09:55:56,896 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/result.html
+2025-10-22 09:55:57,014 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/CrmApplication.java
+2025-10-22 09:55:57,130 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/result.html (ext=.html, size=824)
+2025-10-22 09:55:57,251 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/CrmApplication.java (ext=.java, size=1850)
+2025-10-22 09:55:57,381 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContractRepository.java
+2025-10-22 09:55:57,492 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/search.html
+2025-10-22 09:55:57,596 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContractRepository.java (ext=.java, size=458)
+2025-10-22 09:55:57,697 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/pom.xml
+2025-10-22 09:55:57,776 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/deprecated-list.html
+2025-10-22 09:55:57,874 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/pom.xml (ext=.xml, size=3915)
+2025-10-22 09:55:58,000 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-tree.html
+2025-10-22 09:55:58,079 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/popper.min.js
+2025-10-22 09:55:58,181 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery-ui.custom.min.js
+2025-10-22 09:55:58,293 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/popper.min.js (ext=.js, size=18994)
+2025-10-22 09:55:58,405 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery-ui.custom.min.js (ext=.js, size=32591)
+2025-10-22 09:55:58,488 - Knowledge - INFO - Worker kw2 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContactPersonRepository.java
+2025-10-22 09:55:58,606 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-notify.min.js
+2025-10-22 09:55:58,699 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContactPersonRepository.java (ext=.java, size=291)
+2025-10-22 09:55:58,809 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-notify.min.js (ext=.js, size=8118)
+2025-10-22 09:55:59,013 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/AddressRepository.java
+2025-10-22 09:55:59,205 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/AddressRepository.java (ext=.java, size=274)
+2025-10-22 09:55:59,399 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/moment.min.js
+2025-10-22 09:55:59,597 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/moment.min.js (ext=.js, size=34737)
+2025-10-22 09:55:59,799 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/stylesheet.css
+2025-10-22 09:56:00,043 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/stylesheet.css (ext=.css, size=12842)
+2025-10-22 09:56:00,224 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/EventRepository.java
+2025-10-22 09:56:00,427 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/EventRepository.java (ext=.java, size=563)
+2025-10-22 09:56:00,627 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/addUser.html
+2025-10-22 09:56:00,805 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-2.html
+2025-10-22 09:56:00,993 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/search.html
+2025-10-22 09:56:01,179 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/result.html
+2025-10-22 09:56:01,358 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/result.html (ext=.html, size=824)
+2025-10-22 09:56:01,518 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/chart.js
+2025-10-22 09:56:01,755 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/chart.js (ext=.js, size=109482)
+2025-10-22 09:56:01,966 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/RoleRepository.java
+2025-10-22 09:56:02,137 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/RoleRepository.java (ext=.java, size=295)
+2025-10-22 09:56:02,329 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/sweetalert.min.js
+2025-10-22 09:56:02,547 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/sweetalert.min.js (ext=.js, size=16977)
+2025-10-22 09:56:02,757 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/index.html
+2025-10-22 09:56:02,939 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/show.html
+2025-10-22 09:56:03,134 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/show.html (ext=.html, size=1977)
+2025-10-22 09:56:03,366 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ImportController.java
+2025-10-22 09:56:03,523 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ImportController.java (ext=.java, size=1521)
+2025-10-22 09:56:03,756 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientDto.java
+2025-10-22 09:56:03,953 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientDto.java (ext=.java, size=686)
+2025-10-22 09:56:04,345 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/new.html
+2025-10-22 09:56:04,485 - Knowledge - INFO - [LLM_CALL] Completed: constant-values.html:chunk1, Duration: 6343ms, PromptTokens: 2866, CompletionTokens: 59, Cost: $0.00000
+2025-10-22 09:56:04,564 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/new.html (ext=.html, size=1942)
+2025-10-22 09:56:04,677 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/constant-values.html
+2025-10-22 09:56:04,797 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/getFilename.html
+2025-10-22 09:56:05,110 - Knowledge - INFO - [LLM_CALL] Completed: index-3.html:chunk1, Duration: 8746ms, PromptTokens: 6386, CompletionTokens: 118, Cost: $0.00000
+2025-10-22 09:56:05,124 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/getFilename.html (ext=.html, size=1019)
+2025-10-22 09:56:05,314 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-3.html
+2025-10-22 09:56:05,433 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/AuthenticationFacade.java
+2025-10-22 09:56:05,648 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/AuthenticationFacade.java (ext=.java, size=699)
+2025-10-22 09:56:05,814 - Knowledge - INFO - [LLM_CALL] Completed: package-use.html:chunk1, Duration: 10243ms, PromptTokens: 9364, CompletionTokens: 177, Cost: $0.00000
+2025-10-22 09:56:05,911 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/editClient.html
+2025-10-22 09:56:06,035 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-use.html
+2025-10-22 09:56:06,124 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/clientDetails.html
+2025-10-22 09:56:06,688 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/NotificationService.html
+2025-10-22 09:56:07,410 - Knowledge - INFO - [LLM_CALL] Completed: addSimilarClient.html:chunk1, Duration: 5077ms, PromptTokens: 11790, CompletionTokens: 236, Cost: $0.00000
+2025-10-22 09:56:07,412 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.dataTables.min.js
+2025-10-22 09:56:08,068 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addSimilarClient.html
+2025-10-22 09:56:08,173 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.dataTables.min.js (ext=.js, size=81906)
+2025-10-22 09:56:08,197 - Knowledge - INFO - [LLM_CALL] Completed: ClientMapper.java:chunk1, Duration: 7667ms, PromptTokens: 13592, CompletionTokens: 581, Cost: $0.00000
+2025-10-22 09:56:08,689 - Knowledge - INFO - Worker kw1 processing /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/CrmApplicationTests.java
+2025-10-22 09:56:08,841 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientMapper.java
+2025-10-22 09:56:08,986 - Knowledge - INFO - Fast-tracked /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/CrmApplicationTests.java (ext=.java, size=326)
+2025-10-22 09:56:10,755 - Knowledge - INFO - [LLM_CALL] Completed: index-1.html:chunk1, Duration: 10148ms, PromptTokens: 16958, CompletionTokens: 640, Cost: $0.00000
+2025-10-22 09:56:11,146 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-1.html
+2025-10-22 09:56:11,189 - Knowledge - INFO - [LLM_CALL] Completed: ClientServiceImpl.java:chunk1, Duration: 13972ms, PromptTokens: 18634, CompletionTokens: 1238, Cost: $0.00000
+2025-10-22 09:56:11,839 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientServiceImpl.java
+2025-10-22 09:56:11,880 - Knowledge - INFO - [LLM_CALL] Completed: search.html:chunk1, Duration: 7132ms, PromptTokens: 21442, CompletionTokens: 1497, Cost: $0.00000
+2025-10-22 09:56:12,203 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/search.html
+2025-10-22 09:56:12,281 - Knowledge - INFO - [LLM_CALL] Completed: CsvImportExportService.java:chunk1, Duration: 13349ms, PromptTokens: 23416, CompletionTokens: 2034, Cost: $0.00000
+2025-10-22 09:56:12,747 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/CsvImportExportService.java
+2025-10-22 09:56:13,225 - Knowledge - INFO - [LLM_CALL] Completed: NotificationService.java:chunk1, Duration: 9859ms, PromptTokens: 25684, CompletionTokens: 2514, Cost: $0.00000
+2025-10-22 09:56:13,453 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/NotificationService.java
+2025-10-22 09:56:13,936 - Knowledge - INFO - [LLM_CALL] Completed: ClientController.java:chunk1, Duration: 15037ms, PromptTokens: 27956, CompletionTokens: 3085, Cost: $0.00000
+2025-10-22 09:56:14,122 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ClientController.java
+2025-10-22 09:56:14,431 - Knowledge - INFO - Processing batch of 30 files
+2025-10-22 09:56:14,591 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/script.js
+2025-10-22 09:56:14,758 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-frame.html
+2025-10-22 09:56:14,971 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/api/ClientResource.java
+2025-10-22 09:56:15,186 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ClientController.java
+2025-10-22 09:56:15,357 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserService.java
+2025-10-22 09:56:15,593 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientService.java
+2025-10-22 09:56:15,805 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-1.html
+2025-10-22 09:56:16,005 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Report.java
+2025-10-22 09:56:16,224 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addSimilarClient.html
+2025-10-22 09:56:16,435 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/README.md
+2025-10-22 09:56:16,663 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-datepicker.min.js
+2025-10-22 09:56:16,818 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/success.html
+2025-10-22 09:56:17,028 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Office.java
+2025-10-22 09:56:17,227 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/NotificationService.java
+2025-10-22 09:56:17,408 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/new.html
+2025-10-22 09:56:17,580 - Knowledge - INFO - [LLM_CALL] Completed: ManagerSearchController.java:chunk1, Duration: 23066ms, PromptTokens: 30814, CompletionTokens: 4016, Cost: $0.00000
+2025-10-22 09:56:17,635 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Role.java
+2025-10-22 09:56:17,770 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ManagerSearchController.java
+2025-10-22 09:56:17,867 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Event.java
+2025-10-22 09:56:18,064 - Knowledge - INFO - Processing batch of 20 files
+2025-10-22 09:56:18,108 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SecurityConfig.java
+2025-10-22 09:56:18,263 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ClientResourceTest.java
+2025-10-22 09:56:18,386 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/UserRepository.java
+2025-10-22 09:56:18,492 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ManagerSearchController.java
+2025-10-22 09:56:18,591 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/fullcalendar.min.js
+2025-10-22 09:56:18,700 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-use.html
+2025-10-22 09:56:18,794 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ClientRepository.java
+2025-10-22 09:56:18,953 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/success.html
+2025-10-22 09:56:19,035 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/bootstrap.min.js
+2025-10-22 09:56:19,137 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/UserServiceImpl.java
+2025-10-22 09:56:19,223 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SwaggerConfig.java
+2025-10-22 09:56:19,346 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-3.html
+2025-10-22 09:56:19,458 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/CompanyRepository.java
+2025-10-22 09:56:19,591 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Address.java
+2025-10-22 09:56:19,675 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/NotificationRepository.java
+2025-10-22 09:56:19,799 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ClientServiceImpl.java
+2025-10-22 09:56:19,891 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/CrmApplication.java
+2025-10-22 09:56:19,981 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/dataTables.bootstrap.min.js
+2025-10-22 09:56:20,082 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/search.html
+2025-10-22 09:56:20,223 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-frame.html
+2025-10-22 09:56:20,339 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/pom.xml
+2025-10-22 09:56:20,449 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/pace.min.js
+2025-10-22 09:56:20,580 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/popper.min.js
+2025-10-22 09:56:20,690 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/resources/Client.json
+2025-10-22 09:56:20,767 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContactPersonRepository.java
+2025-10-22 09:56:20,933 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/HomeController.java
+2025-10-22 09:56:21,171 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Contract.java
+2025-10-22 09:56:21,389 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/AdminController.java
+2025-10-22 09:56:21,607 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/constant-values.html
+2025-10-22 09:56:21,802 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/ContractServiceTest.java
+2025-10-22 09:56:22,060 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/CsvImportExportService.java
+2025-10-22 09:56:22,345 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/result.html
+2025-10-22 09:56:22,539 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientMapper.java
+2025-10-22 09:56:24,542 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 291, Duration: 0ms
+2025-10-22 09:56:24,751 - Knowledge - INFO - [WEBSOCKET] Sent: Type=unknown, Size: ?, Duration: 209ms
+2025-10-22 09:56:24,918 - Knowledge - INFO - Progress: 45.5% | Files: 50/110 | Rate: 0.36 files/sec | Queue: 0
+2025-10-22 09:56:34,839 - Knowledge - INFO - [LLM_CALL] Completed: editClient.html:chunk1, Duration: 4652ms, PromptTokens: 33482, CompletionTokens: 4075, Cost: $0.00000
+2025-10-22 09:56:35,036 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/editClient.html
+2025-10-22 09:56:35,523 - Knowledge - INFO - [LLM_CALL] Completed: NotificationService.html:chunk1, Duration: 3623ms, PromptTokens: 39840, CompletionTokens: 4134, Cost: $0.00000
+2025-10-22 09:56:35,678 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/NotificationService.html
+2025-10-22 09:56:38,266 - Knowledge - INFO - [LLM_CALL] Completed: help-doc.html:chunk1, Duration: 18676ms, PromptTokens: 45120, CompletionTokens: 4193, Cost: $0.00000
+2025-10-22 09:56:38,465 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/help-doc.html
+2025-10-22 09:56:38,836 - Knowledge - INFO - [LLM_CALL] Completed: jquery.vmap.sampledata.js:chunk1, Duration: 26996ms, PromptTokens: 48138, CompletionTokens: 4304, Cost: $0.00000
+2025-10-22 09:56:39,061 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.sampledata.js
+2025-10-22 09:56:39,293 - Knowledge - INFO - [LLM_CALL] Completed: search.html:chunk1, Duration: 10833ms, PromptTokens: 51040, CompletionTokens: 4363, Cost: $0.00000
+2025-10-22 09:56:39,458 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/search.html
+2025-10-22 09:56:39,704 - Knowledge - INFO - [LLM_CALL] Completed: index-4.html:chunk1, Duration: 25153ms, PromptTokens: 54254, CompletionTokens: 4422, Cost: $0.00000
+2025-10-22 09:56:39,897 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-4.html
+2025-10-22 09:56:40,467 - Knowledge - INFO - [LLM_CALL] Completed: addClient.html:chunk1, Duration: 17270ms, PromptTokens: 56804, CompletionTokens: 4481, Cost: $0.00000
+2025-10-22 09:56:40,667 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addClient.html
+2025-10-22 09:56:40,904 - Knowledge - INFO - [LLM_CALL] Completed: layout.html:chunk1, Duration: 22982ms, PromptTokens: 62136, CompletionTokens: 4540, Cost: $0.00000
+2025-10-22 09:56:41,093 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/layout.html
+2025-10-22 09:56:41,665 - Knowledge - INFO - [LLM_CALL] Completed: deprecated-list.html:chunk1, Duration: 16648ms, PromptTokens: 64986, CompletionTokens: 4599, Cost: $0.00000
+2025-10-22 09:56:41,872 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/deprecated-list.html
+2025-10-22 09:56:42,074 - Knowledge - INFO - [LLM_CALL] Completed: overview-tree.html:chunk1, Duration: 19680ms, PromptTokens: 68096, CompletionTokens: 4658, Cost: $0.00000
+2025-10-22 09:56:42,258 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/overview-tree.html
+2025-10-22 09:56:42,703 - Knowledge - INFO - [LLM_CALL] Completed: addUser.html:chunk1, Duration: 15926ms, PromptTokens: 70426, CompletionTokens: 4717, Cost: $0.00000
+2025-10-22 09:56:42,935 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/addUser.html
+2025-10-22 09:56:43,140 - Knowledge - INFO - [LLM_CALL] Completed: package-summary.html:chunk1, Duration: 26955ms, PromptTokens: 73724, CompletionTokens: 4776, Cost: $0.00000
+2025-10-22 09:56:43,321 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-summary.html
+2025-10-22 09:56:43,518 - Knowledge - INFO - [LLM_CALL] Completed: index.html:chunk1, Duration: 14219ms, PromptTokens: 75852, CompletionTokens: 4835, Cost: $0.00000
+2025-10-22 09:56:43,744 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index.html
+2025-10-22 09:56:43,949 - Knowledge - INFO - [LLM_CALL] Completed: clientDetails.html:chunk1, Duration: 12845ms, PromptTokens: 79052, CompletionTokens: 4894, Cost: $0.00000
+2025-10-22 09:56:44,198 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/clientDetails.html
+2025-10-22 09:56:44,437 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/class-use/NotificationService.html
+2025-10-22 09:56:44,912 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/index.html
+2025-10-22 09:56:45,807 - Knowledge - INFO - [LLM_CALL] Completed: index-2.html:chunk1, Duration: 18153ms, PromptTokens: 88372, CompletionTokens: 5187, Cost: $0.00000
+2025-10-22 09:56:46,000 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-2.html
+2025-10-22 09:56:46,219 - Knowledge - INFO - [LLM_CALL] Completed: package-tree.html:chunk1, Duration: 20314ms, PromptTokens: 91446, CompletionTokens: 5246, Cost: $0.00000
+2025-10-22 09:56:46,442 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-tree.html
+2025-10-22 09:56:48,230 - Knowledge - INFO - [LLM_CALL] Completed: EventController.java:chunk1, Duration: 32850ms, PromptTokens: 93142, CompletionTokens: 5629, Cost: $0.00000
+2025-10-22 09:56:48,448 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EventController.java
+2025-10-22 09:56:49,674 - Knowledge - INFO - [LLM_CALL] Completed: ContractController.java:chunk1, Duration: 30852ms, PromptTokens: 95500, CompletionTokens: 6169, Cost: $0.00000
+2025-10-22 09:56:49,869 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ContractController.java
+2025-10-22 09:56:50,709 - Knowledge - INFO - [LLM_CALL] Completed: EmployeeSearchController.java:chunk1, Duration: 26593ms, PromptTokens: 98226, CompletionTokens: 6927, Cost: $0.00000
+2025-10-22 09:56:50,945 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EmployeeSearchController.java
+2025-10-22 09:56:51,226 - Knowledge - INFO - [LLM_CALL] Completed: jquery.vmap.world.js:chunk1, Duration: 29795ms, PromptTokens: 185168, CompletionTokens: 7143, Cost: $0.00000
+2025-10-22 09:56:51,428 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.world.js
+2025-10-22 09:56:51,919 - Knowledge - INFO - [LLM_CALL] Completed: ContractService.java:chunk1, Duration: 31451ms, PromptTokens: 187432, CompletionTokens: 7728, Cost: $0.00000
+2025-10-22 09:56:52,145 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ContractService.java
+2025-10-22 09:56:52,739 - Knowledge - INFO - [LLM_CALL] Completed: PdfService.java:chunk1, Duration: 43484ms, PromptTokens: 190618, CompletionTokens: 8396, Cost: $0.00000
+2025-10-22 09:56:52,895 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/PdfService.java
+2025-10-22 09:56:53,310 - Knowledge - INFO - Processing batch of 60 files
+2025-10-22 09:56:53,522 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Client.java
+2025-10-22 09:56:53,683 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/PdfService.java
+2025-10-22 09:56:53,898 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ReportRepository.java
+2025-10-22 09:56:54,070 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/User.java
+2025-10-22 09:56:54,237 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.sampledata.js
+2025-10-22 09:56:54,429 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/css/main.css
+2025-10-22 09:56:54,641 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/OfficeRepository.java
+2025-10-22 09:56:54,853 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index.html
+2025-10-22 09:56:55,070 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Notification.java
+2025-10-22 09:56:55,263 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.min.js
+2025-10-22 09:56:55,458 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/SpringDataUserDetailsService.java
+2025-10-22 09:56:55,664 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-4.html
+2025-10-22 09:56:55,844 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EventController.java
+2025-10-22 09:56:56,047 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-summary.html
+2025-10-22 09:56:56,203 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/main.js
+2025-10-22 09:56:56,399 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/select2.min.js
+2025-10-22 09:56:56,622 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/class-use/NotificationService.html
+2025-10-22 09:56:56,819 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/Company.java
+2025-10-22 09:56:57,015 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/layout.html
+2025-10-22 09:56:57,199 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ContractController.java
+2025-10-22 09:56:57,399 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/entity/ContactPerson.java
+2025-10-22 09:56:57,598 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/jquery-3.2.1.min.js
+2025-10-22 09:56:57,792 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/help-doc.html
+2025-10-22 09:56:57,974 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/allclasses-noframe.html
+2025-10-22 09:56:58,163 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/employee/result.html
+2025-10-22 09:56:58,350 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/ContractService.java
+2025-10-22 09:56:58,570 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.vmap.world.js
+2025-10-22 09:56:58,734 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/overview-tree.html
+2025-10-22 09:56:58,936 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/addClient.html
+2025-10-22 09:56:59,136 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/service/AddressService.java
+2025-10-22 09:56:59,315 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/EmployeeSearchController.java
+2025-10-22 09:56:59,500 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/contract/result.html
+2025-10-22 09:56:59,704 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/ContractRepository.java
+2025-10-22 09:56:59,898 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/deprecated-list.html
+2025-10-22 09:57:00,070 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/package-tree.html
+2025-10-22 09:57:00,287 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery-ui.custom.min.js
+2025-10-22 09:57:00,518 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/bootstrap-notify.min.js
+2025-10-22 09:57:00,729 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/AddressRepository.java
+2025-10-22 09:57:00,938 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/moment.min.js
+2025-10-22 09:57:01,174 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/stylesheet.css
+2025-10-22 09:57:01,349 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/EventRepository.java
+2025-10-22 09:57:01,555 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/admin/addUser.html
+2025-10-22 09:57:01,739 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/index-files/index-2.html
+2025-10-22 09:57:01,902 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/manager/search.html
+2025-10-22 09:57:02,106 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/result.html
+2025-10-22 09:57:02,317 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/chart.js
+2025-10-22 09:57:02,532 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/repository/RoleRepository.java
+2025-10-22 09:57:02,703 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/sweetalert.min.js
+2025-10-22 09:57:02,906 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/index.html
+2025-10-22 09:57:03,107 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/show.html
+2025-10-22 09:57:03,338 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/web/ImportController.java
+2025-10-22 09:57:03,502 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/dto/ClientDto.java
+2025-10-22 09:57:03,676 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/event/new.html
+2025-10-22 09:57:03,845 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/import/getFilename.html
+2025-10-22 09:57:04,028 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/java/pl/coderslab/AuthenticationFacade.java
+2025-10-22 09:57:04,253 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/editClient.html
+2025-10-22 09:57:04,483 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/templates/client/clientDetails.html
+2025-10-22 09:57:04,665 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/doc/pl/coderslab/service/NotificationService.html
+2025-10-22 09:57:04,898 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/main/resources/static/js/plugins/jquery.dataTables.min.js
+2025-10-22 09:57:05,082 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/5555/b30548k/CRM-5555/src/test/java/pl/coderslab/CrmApplicationTests.java
+2025-10-22 09:57:09,523 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 292, Duration: 0ms
+2025-10-22 09:57:09,761 - Knowledge - INFO - [WEBSOCKET] Sent: Type=unknown, Size: ?, Duration: 239ms
+2025-10-22 09:57:09,960 - Knowledge - INFO - Progress: 100.0% | Files: 110/110 | Rate: 0.60 files/sec | Queue: 0
+2025-10-22 09:57:10,137 - Knowledge - INFO - Knowledge creation complete
+2025-10-22 09:57:10,325 - Knowledge - INFO - ==================================================
+2025-10-22 09:57:10,480 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-22 09:57:10,655 - Knowledge - INFO - ==================================================
+2025-10-22 09:57:10,816 - Knowledge - INFO - Total processing time: 184.60 seconds (3.08 minutes)
+2025-10-22 09:57:11,002 - Knowledge - INFO - Files processed: 0
+2025-10-22 09:57:11,219 - Knowledge - INFO - Processing rate: 0.00 files/second
+2025-10-22 09:57:11,412 - Knowledge - INFO - 
+[TIME_BREAKDOWN]
+2025-10-22 09:57:11,626 - Knowledge - INFO - File Reading: 0.64s (0.3%)
+2025-10-22 09:57:11,817 - Knowledge - INFO - LLM Processing: 600.59s (325.3%)
+2025-10-22 09:57:12,020 - Knowledge - INFO - MongoDB Operations: 0.00s (0.0%)
+2025-10-22 09:57:12,204 - Knowledge - INFO - Redis Operations: 0.00s (0.0%)
+2025-10-22 09:57:12,385 - Knowledge - INFO - WebSocket Communication: 0.45s (0.2%)
+2025-10-22 09:57:12,546 - Knowledge - INFO - 
+[LLM_STATS]
+2025-10-22 09:57:12,741 - Knowledge - INFO - Total LLM calls: 34
+2025-10-22 09:57:12,914 - Knowledge - INFO - Average LLM response time: 17664ms
+2025-10-22 09:57:13,066 - Knowledge - INFO - Average prompt tokens: 60639.9
+2025-10-22 09:57:13,254 - Knowledge - INFO - Average completion tokens: 3870.9
+2025-10-22 09:57:13,416 - Knowledge - INFO - Total prompt tokens: 2061756
+2025-10-22 09:57:13,583 - Knowledge - INFO - Total completion tokens: 131611
+2025-10-22 09:57:13,795 - Knowledge - INFO - Total LLM cost: $0.0000
+2025-10-22 09:57:13,953 - Knowledge - INFO - 
+[DATABASE_STATS]
+2025-10-22 09:57:14,195 - Knowledge - INFO - MongoDB operations: 0
+2025-10-22 09:57:14,402 - Knowledge - INFO - Redis operations: 0
+2025-10-22 09:57:14,601 - Knowledge - INFO - 
+[COMMUNICATION_STATS]
+2025-10-22 09:57:14,786 - Knowledge - INFO - WebSocket messages sent: 4
+2025-10-22 09:57:14,976 - Knowledge - INFO - Average message size: 145.8 bytes
+2025-10-22 09:57:15,185 - Knowledge - INFO - 
+[WORKER_STATS]
+2025-10-22 09:57:15,383 - Knowledge - INFO - 
+[FILE_TYPE_STATS]
+2025-10-22 09:57:15,603 - Knowledge - INFO - 
+[SLOWEST_FILES]
+2025-10-22 09:57:15,795 - Knowledge - INFO - ==================================================
+2025-10-22 09:57:15,990 - Knowledge - INFO - ==================================================
+2025-10-22 09:57:16,154 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-22 09:57:16,376 - Knowledge - INFO - ==================================================
+2025-10-22 09:57:16,597 - Knowledge - INFO - Total processing time: 190.29 seconds (3.17 minutes)
+2025-10-22 09:57:16,762 - Knowledge - INFO - Files processed: 110 of 110
+2025-10-22 09:57:16,949 - Knowledge - INFO - Processing rate: 0.58 files/second
+2025-10-22 09:57:17,124 - Knowledge - INFO - WebSocket messages sent: 2
+2025-10-22 09:57:17,309 - Knowledge - INFO - MongoDB operations: 110
+2025-10-22 09:57:17,484 - Knowledge - INFO - Average MongoDB ops per file: 1.00
+2025-10-22 09:57:17,663 - Knowledge - INFO - LLM costs: $0.0224
+2025-10-22 09:57:17,855 - Knowledge - INFO - Prompt tokens: 190618
+2025-10-22 09:57:18,025 - Knowledge - INFO - Completion tokens: 8396
+2025-10-22 09:57:18,221 - Knowledge - INFO - Updating org costs, total cost: 0.022420199999999998
+2025-10-22 09:57:18,405 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 269, Duration: 0ms
+2025-10-22 09:57:18,627 - Knowledge - INFO - Saving knowledge to Redis...
+2025-10-22 09:57:18,864 - Knowledge - INFO - Knowledge saved to Redis successfully
